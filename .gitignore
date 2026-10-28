@@ -1,0 +1,37 @@
+# Dependencies and build output
+node_modules/
+__pycache__/
+*.py[cod]
+build/
+dist/
+target/
+out/
+.gradle/
+.idea/
+.vscode/
+*.log
+
+# Local databases and credentials
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+!*.example
+*application-local*.yml
+*application-local*.yaml
+*jdbc-local*.properties
+
+# Archives, binaries, and generated media
+*.zip
+*.rar
+*.7z
+*.gz
+*.exe
+*.dll
+*.pdb
+*.blend
+
+# OS files
+.DS_Store
+Thumbs.db
